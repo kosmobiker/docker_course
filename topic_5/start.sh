@@ -1,0 +1,1 @@
+docker run --rm -d -p 8123:8123 -p 9000:9000 --name ch_test yandex/clickhouse-server
