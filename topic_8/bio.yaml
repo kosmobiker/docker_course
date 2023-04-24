@@ -1,0 +1,22 @@
+x-eukaryotes: &eu-organelles
+  organelles:
+    - nucleus
+    - mitochondria
+    - endoplasmic reticulum
+    - Golgi apparatus
+    - ribosomes
+    - cytoskeleton
+
+human-cells:
+    cell-wall: absent
+    <<: *eu-organelles
+    examples:
+        - Macrophage
+        - Hepatocyte
+
+yeasts:
+    cell-wall: present
+    <<: *eu-organelles
+    examples: 
+        - Saccharomyces cerevisiae
+        - Komagataella phaffii
